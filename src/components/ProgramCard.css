@@ -1,0 +1,28 @@
+.card {
+    height: 250px;
+    width: 200px;
+    background-color: khaki;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.card:hover {
+    height: 250px;
+    width: 200px;
+    background-color: khaki;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px midnightblue;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+
+.content p {
+    color: grey;
+}
